@@ -5,8 +5,7 @@
   "main": "add.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "keywords": [],
   "author": "",
