@@ -1,4 +1,4 @@
-function squareroot(a) {
+function squareroot(a,b) {
     return a*.5;
 }
 

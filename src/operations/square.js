@@ -1,4 +1,4 @@
-function square(a) {
+function square(a,b) {
     return a*a;
 }
 
