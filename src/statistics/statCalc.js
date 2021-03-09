@@ -1,4 +1,4 @@
-module.exports = class statcalc{
+module.exports = class statCalc{
 
     static mean(numbers) {
         var total = 0, i;
@@ -49,7 +49,7 @@ module.exports = class statcalc{
         return modes;
     }
 
-    static const quartile = (numbers, q) => {
+    static quartile = (numbers, q) => {
         const sorted = numbers.sort();
         const pos = (sorted.length - 1) * q;
         const base = Math.floor(pos);
@@ -88,17 +88,17 @@ module.exports = class statcalc{
         else { return 0; }
     }
 
-    static function standardDev(numbers) {
-        const sd = Math.sqrt(variance(numbers));
+    static standardDev(numbers) {
+        const sd = Math.sqrt(statCalc.variance(numbers));
 
         return sd
 
     }
 
     static skewness(numbers) {
-        let beea = stat-calc.mean(numbers);
+        let beea = statCalc.mean(numbers);
         let dev =  numbers.reduce((a, b) => a + (b-beea) ** 3, 0);
-        let standardDeeee = stat-calc.standardDev(numbers);
+        let standardDeeee = statCalc.standardDev(numbers);
 
         return (dev/numbers.length) / (standardDeeee ** 3);
 
