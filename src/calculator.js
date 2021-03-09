@@ -1,4 +1,4 @@
-const calculation=require('./models/calculation');
+const calculation = require('./models/calculation');
 const add=require('./operations/add');
 const subtract=require('./operations/subtract');
 const multiply=require('./operations/multiply');
