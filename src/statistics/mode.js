@@ -22,4 +22,4 @@ function mode(numbers) {
 }
 
 module.exports = mode
-// console.log(standardDev([1,2,3,3,3,4,5,6,7,8,9,10]));
+// console.log(mode([1,2,3,3,3,4,5,6,7,8,9,10]));

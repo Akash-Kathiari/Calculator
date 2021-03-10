@@ -10,4 +10,4 @@ const quartile = (numbers, q) => {
     }
 };
 module.exports = quartile
-//console.log(quartile([1,12,2,3,41,4,11,2,1], .25));
+// console.log(quartile([1,12,2,3,41,4,11,2,1], .25));
