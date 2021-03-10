@@ -13,7 +13,7 @@ function median(numbers) {
         median = numbers[(numsLen - 1) / 2];
     }
 
-    return console.log(median);
+    return median;
 }
 module.exports = median
-// console.log(standardDev([1,2,3,3,3,4,5,6,7,8,9,10]));
+// console.log(median([1,2,3,3,3,4,5,6,7,8,9,10]));
